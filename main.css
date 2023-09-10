@@ -43,6 +43,7 @@ nav{
     height: 80px;
     width: 100%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    
 }
 
 label.logo{
@@ -67,8 +68,7 @@ nav ul li{
 
 nav ul li a {
     color: rgb(0, 0, 0);
-    font-size: 1vw;
-    line-height: 1vh;
+    font-size: 1.2rem;
     text-transform: uppercase;
 }
 
@@ -112,7 +112,7 @@ nav ul li a:hover{
 }
 
 .text-container2{
-    font-size: 1.9vh;
+    font-size: 1.2rem;
 }
 .button1{
     border: 2px solid;
@@ -122,21 +122,37 @@ nav ul li a:hover{
     border-radius: 5px;
 }
 
+
+
 .about{
     display: flex;
-    justify-content: left;
     height: 100vh;
+    justify-content: left;
     align-items: center;
     margin-right: 5px;
 }
 
 .about p {
     padding-top: 4%;
-    max-width: 600vh;
     margin-right: 100px;
     white-space: normal;
     color: #555;
-    font-size: large;
+    width: 35rem;
+    height: 25vh; 
+
+}
+
+.about a {
+    border: solid;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: black;
+    color: green;
+
+}
+
+.about a:hover{
+    color: #147efb;
 }
 
 .stackContainer{
@@ -155,6 +171,7 @@ nav ul li a:hover{
 
 .tech-stack-list{
     display: flex;
+    flex-shrink: 0;
     flex-wrap: wrap;
 }
 
@@ -216,6 +233,7 @@ nav ul li a:hover{
     margin: 50px;
     margin-top: 50px;
     align-items: center;
+    padding-bottom: 25px;
     justify-content: center;
     background: white;
     box-shadow: -0.1px 0 10px black;
@@ -238,7 +256,7 @@ nav ul li a:hover{
     padding-right: 10px;
     width: 73vh;
     margin: 50px;
-   
+    padding-bottom: 25px;
     align-items: center;
     justify-content: center;
     background: white;
@@ -252,3 +270,11 @@ nav ul li a:hover{
     border: 2px solid green;
     border-radius: 10px;
 }
+
+.imgCont{
+    max-width: 100%;
+    margin: 10px;
+    height: 500px;
+    max-height: 1vh;
+}
+
