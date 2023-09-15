@@ -114,6 +114,7 @@ nav ul li a:hover{
 .text-container2{
     font-size: 1.2rem;
 }
+
 .button1{
     border: 2px solid;
     text-decoration: none;
@@ -122,14 +123,12 @@ nav ul li a:hover{
     border-radius: 5px;
 }
 
-
-
 .about{
     display: flex;
     height: 100vh;
     justify-content: left;
     align-items: center;
-    margin-right: 5px;
+    
 }
 
 .about p {
@@ -137,9 +136,8 @@ nav ul li a:hover{
     margin-right: 100px;
     white-space: normal;
     color: #555;
-    width: 35rem;
+    width: 34rem;
     height: 25vh; 
-
 }
 
 .about a {
@@ -183,7 +181,7 @@ nav ul li a:hover{
 
 .vl{
     border-left: 2px solid black;
-    padding: 2rem;
+    padding: 1rem;
     height: 40vh;
 }
 
@@ -198,6 +196,8 @@ nav ul li a:hover{
 
 .experience{
     padding: 40px;
+    
+    margin-left: -10px;
 }
 
 .experience ul li{    
@@ -207,7 +207,7 @@ nav ul li a:hover{
 
 .projects{
     background-color: #f9f9f9;
-    height: 100vh;
+    height: auto;
 }
 
 .projects h1{
@@ -219,7 +219,6 @@ nav ul li a:hover{
 .project-container{
     display: flex;
     flex-direction: column;
-    height:  auto;
     justify-content: center;
     align-items: center;
     background-color: #f9f9f9;
@@ -278,3 +277,24 @@ nav ul li a:hover{
     max-height: 1vh;
 }
 
+.contactMe{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.contactEntry{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+ 
+
+}
+
+.contactMe p{
+    padding-left: 20px;
+}
