@@ -132,7 +132,8 @@ nav ul li a:hover{
 }
 
 .about p {
-    padding-top: 4%;
+    padding-top: 1%;
+    margin-bottom: 16vh;
     margin-right: 100px;
     white-space: normal;
     color: #555;
@@ -182,12 +183,12 @@ nav ul li a:hover{
 .vl{
     border-left: 2px solid black;
     padding: 1rem;
-    height: 40vh;
+    height: 55vh;
 }
 
 .v1{
     border-left: 2px solid black;
-    height: 40vh;
+    height: 55vh;
 }
 
 .experience h2{
@@ -263,6 +264,30 @@ nav ul li a:hover{
 
 }
 
+.project-3{
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 73vh;
+    margin: 50px;
+    margin-top: 50px;
+    align-items: center;
+    padding-bottom: 25px;
+    justify-content: center;
+    background: white;
+    box-shadow: -0.1px 0 10px black;
+}
+
+.project-3 img{
+    height: 50vh; 
+    width: auto;
+    margin-left: 23vh;
+    margin-top: 1vh;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+
 .project-2 img{
     height: 32vh; 
     width: auto;
@@ -298,3 +323,4 @@ nav ul li a:hover{
 .contactMe p{
     padding-left: 20px;
 }
+
