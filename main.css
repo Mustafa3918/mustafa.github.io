@@ -283,7 +283,7 @@ nav ul li a:hover{
     width: auto;
     margin-left: 23vh;
     margin-top: 1vh;
-    border: 2px solid green;
+    
     border-radius: 10px;
 }
 
@@ -320,4 +320,141 @@ nav ul li a:hover{
 
 .contactMe p{
     padding-left: 20px;
+}
+
+@media (max-width: 900px) {
+
+    .me{
+        display: flex;
+        justify-content: left;
+        height: 100vh;
+        padding-left: 50px;
+        background-color: #f9f9f9;
+    }
+    
+    .me img{
+        max-width: 100%;
+        margin-right: 20px;
+        border: 3px solid  green;
+        border-radius: 5%;    
+    }
+    
+    .me p{
+        display: flex;
+        padding-bottom: 20px;
+    }   
+    .about{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: left;
+        align-items: center;
+        
+    }
+    
+    .about h2{
+        text-align: center;
+    }
+    .about p {
+        padding-top: 1%;
+        margin-bottom: 16vh;
+        padding-left: 100px;
+        white-space: normal;
+        color: #555;
+        width: 34rem;
+        height: 25vh; 
+        text-align: center;
+    }
+    
+    .about a {
+
+        border: solid;
+        padding: 10px;
+        border-radius: 20px;
+        border-color: black;
+        color: green;
+    
+    }
+    
+    .about a:hover{
+        color: #147efb;
+    }
+    
+    .stackContainer{
+        padding: 3rem;
+        text-align: center;
+        font-size: x-large;
+        padding-right: 2px;
+    }
+    
+    .tech-stack-list li img{
+        max-width: 100%;
+        margin: 10px;
+        height: auto;
+        max-height: 6vh;
+    }
+    
+    .tech-stack-list{
+        display: flex;
+        flex-shrink: 0;
+        flex-wrap: wrap;
+    }
+    
+    .techStack{
+       padding: 3rem;
+       width: 600px;
+    
+    }   
+    .vl{
+        display: none;
+    }
+    
+    .v1{
+        display: none;
+    }
+
+    .experience{
+        padding-top: 33vh;
+    }
+
+    hr{
+        width: 450px;
+        height: 2px;
+        margin-bottom: 40px;
+        background-color: black;
+    }
+
+    .experience hr{
+        width: 100%;
+        height: 2px;
+        background-color: black;
+    }
+
+    label.logo{
+        
+        justify-content: left;
+    }
+    
+    nav ul{
+        float: right;
+        margin-right: 20px;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        
+        margin: 0 5px;
+        padding: 7px 13px;
+    }
+    
+    nav ul li a {
+        color: rgb(0, 0, 0);
+        font-size: large;
+        text-transform: uppercase;
+    }
+    
+    nav ul li a:hover{
+        color: #147efb;
+        font-size: large;
+    }    
 }
